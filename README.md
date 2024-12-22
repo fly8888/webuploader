@@ -31,7 +31,7 @@
 │       ├── list.php      # 获取文件列表
 │       ├── move.php      # 移动文件
 │       └── upload.php    # 上传文件
-├── public/            # Web根目录
+├── web/            # Web根目录
 │   ├── css/          # CSS文件
 │   ├── js/           # JavaScript文件
 │   ├── fonts/        # 字体文件
