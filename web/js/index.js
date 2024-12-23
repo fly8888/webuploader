@@ -137,7 +137,7 @@
      $(".button-download").click(function(event) {
        var path = $(this).parent().parent().data("path");
        setTimeout(function() {
-         window.location = "download?path=" + encodeURIComponent(path);
+         window.location = "../app/api/download.php?path=" + encodeURIComponent(path);
        }, 0);
      });
      
