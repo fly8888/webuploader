@@ -22,7 +22,7 @@
 ## 目录结构
 
 ```
-/project_root/
+/webuploader/
 ├── app/                # 应用程序目录
 │   └── api/           # API接口
 │       ├── create.php    # 创建文件夹
@@ -67,11 +67,11 @@ max_input_time = 3600
 
 ```bash
 # 创建上传目录
-mkdir -p public/uploads
+mkdir -p webuploader/uploads
 
 # 设置权限
-chmod 755 public/uploads
-chown www-data:www-data public/uploads  # 使用实际的 web 服务器用户
+chmod 755 webuploader/uploads
+chown www:www webuploader/uploads  # 使用实际的 web 服务器用户
 ```
 
 4. 重启服务：
