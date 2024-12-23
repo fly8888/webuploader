@@ -3,6 +3,8 @@
 一个基于 PHP 的 Web 文件管理器，界面设计参考了 iOS GCDWebUploader 的风格。本项目为局域网内使用的简单工具项目，不保证稳定性，请谨慎用于生产环境。
 
 
+![alt text](./images/image.png)
+
 ## 功能特性
 
 - 文件上传/下载
